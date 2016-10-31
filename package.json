@@ -1,0 +1,27 @@
+{
+  "name": "webpack-server-lancher",
+  "version": "1.0.8",
+  "description": "webpack dev server的启动器，支持mock等功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "dev",
+    "server",
+    "mock"
+  ],
+  "author": "jady@live.com",
+  "license": "BSD 3-Clause License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadyyang/webpack-server-lancher"
+  },
+  "dependencies": {
+    "express-mock-api": "^1.0.9",
+    "http-proxy": "^1.14.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
